@@ -2,16 +2,16 @@ library(readxl)
 
 # collect circadian genes in baboon by tissue, along with their p values
 
-baboon_gene_db_1 <- read_excel('Desktop/circ_gene/data2/Database S1-Baboon_metacycle_statistics.xls',
+baboon_gene_db_1 <- read_excel('Desktop/circ_gene/data/Database S1-Baboon_metacycle_statistics.xls',
                               sheet = 1)
 
-baboon_gene_db_2 <- read_excel('Desktop/circ_gene/data2/Database S1-Baboon_metacycle_statistics.xls',
+baboon_gene_db_2 <- read_excel('Desktop/circ_gene/data/Database S1-Baboon_metacycle_statistics.xls',
                               sheet = 2)
 
 gene_id_baboon <- baboon_gene_db_1$...1[2:nrow(baboon_gene_db_1)]
 
 # load baboon human conversion downloaded from Ensembl
-baboon2human_gene_id <- read.delim("Desktop/circ_gene/data2/baboon2human_gene_id_v5.txt")
+baboon2human_gene_id <- read.delim("Desktop/circ_gene/data/baboon2human_gene_id_v5.txt")
 baboon2human_gene_id_1to1 <- baboon2human_gene_id[baboon2human_gene_id$Human.homology.type 
                                                   =='ortholog_one2one',]
 baboon2human_gene_DF <- data.frame(baboon = baboon2human_gene_id_1to1$Gene.stable.ID,
@@ -87,7 +87,7 @@ names(circadian_gene_by_tissue_2) <- tissues_2
 circadian_gene_by_tissue <- c(circadian_gene_by_tissue_1,circadian_gene_by_tissue_2)
 
 save(circadian_gene_by_tissue, 
-     file = 'Desktop/circ_gene/data2/circadian_genes_v3.RData')  
+     file = 'Desktop/circ_gene/data/circadian_genes_v3.RData')  
   
   
 
