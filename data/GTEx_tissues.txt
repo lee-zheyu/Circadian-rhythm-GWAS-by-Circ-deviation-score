@@ -1,0 +1,56 @@
+GTEx	baboon
+Adipose - Subcutaneous	WAS
+Adipose - Visceral (Omentum)	OMF
+Adrenal Gland	ADC;ADM
+Artery - Aorta	AOR
+Artery - Coronary	
+Artery - Tibial	
+Bladder	BLA
+Brain - Amygdala	AMY
+Brain - Anterior cingulate cortex (BA24)	
+Brain - Caudate (basal ganglia)	
+Brain - Cerebellar Hemisphere	
+Brain - Cerebellum	CER
+Brain - Cortex	
+Brain - Frontal Cortex (BA9)	PRC
+Brain - Hippocampus	HIP
+Brain - Hypothalamus	DHM
+Brain - Nucleus accumbens (basal ganglia)	
+Brain - Putamen (basal ganglia)	PUT
+Brain - Spinal cord (cervical c-1)	
+Brain - Substantia nigra	SUN
+Breast - Mammary Tissue	
+Cells - Cultured fibroblasts	
+Cells - EBV-transformed lymphocytes	
+Cells - Leukemia cell line (CML)	
+Cervix - Ectocervix	
+Cervix - Endocervix	
+Colon - Sigmoid	
+Colon - Transverse	
+Esophagus - Gastroesophageal Junction	
+Esophagus - Mucosa	
+Esophagus - Muscularis	
+Fallopian Tube	
+Heart - Atrial Appendage	HEA
+Heart - Left Ventricle	HEA
+Kidney - Cortex	KIC
+Kidney - Medulla	KIM
+Liver	LIV
+Lung	LUN
+Minor Salivary Gland	
+Muscle - Skeletal	
+Nerve - Tibial	
+Ovary	
+Pancreas	PAN
+Pituitary	PIT
+Prostate	PRO
+Skin - Not Sun Exposed (Suprapubic)	
+Skin - Sun Exposed (Lower leg)	SKI
+Small Intestine - Terminal Ileum	ILE
+Spleen	SPLE
+Stomach	STF
+Testis	TES
+Thyroid	THR
+Uterus	
+Vagina	
+Whole Blood	
