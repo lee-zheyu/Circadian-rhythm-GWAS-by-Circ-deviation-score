@@ -1,7 +1,7 @@
 library(ggplot2)
 
-load('Desktop/circ_gene/data/data/R_weighted_complete2.RData')
-load('Desktop/circ_gene/data/data/GTEx_colors.RData')
+load('Desktop/circ_gene/data/R_weighted_complete2.RData')
+load('Desktop/circ_gene/data/GTEx_colors.RData')
 load('Desktop/circ_gene/data/deviation_by_tissue_weighted_complete.RData')
 
 snp_ct_by_tissue <- data.frame(table(R_complete$tissue))
