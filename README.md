@@ -80,14 +80,14 @@ This project identifies SNPs associated with circadian gene expression deviation
 
 - **Distribution on Genome**:  
   - `manhattan.R`: Visualizes genome-wide distribution including chrX.  
-  - `f_s2_tissue_overlap_upset.R`: Plots overlap of significant SNPs across tissues.  
-  - `f_s4_snp_location.R`, `snp_location.R`: Show genomic location and 3' transcript enrichment of Circ-SNPs.
+  - `tissue_overlap_upset.R`: Plots overlap of significant SNPs across tissues.  
+  - `snp_location.R`, `snp_location2.R`: Show genomic location and 3' transcript enrichment of Circ-SNPs.
 
 ### Circadian Trait Associations
 
 - **Scripts**:  
   - `GWAS_comparison_snp.R`: Cross-references Circ-SNPs with SNPs linked to circadian traits.  
-  - `f6_GWAS_comparison.R`: Compares Circ-SNP-harboring genes with circadian-trait genes and highlights Circ-regulators.
+  - `GWAS_comparison_gene.R`: Compares Circ-SNP-harboring genes with circadian-trait genes and highlights Circ-regulators.
 
 ### Drug Repurposing
 
