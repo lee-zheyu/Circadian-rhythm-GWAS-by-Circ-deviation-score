@@ -61,7 +61,7 @@ This project identifies SNPs associated with circadian gene expression deviation
 
 ### Circadian Variation in Gene Expression
 
-- **Script**: `f_s1_dev_score.R`  
+- **Script**: `dev_score.R`  
   Visualizes circadian deviation scores across all tissues.
 
 ### Genome-wide Mapping of Circ-SNPs
@@ -70,16 +70,16 @@ This project identifies SNPs associated with circadian gene expression deviation
   - `GTEx_significant_SNPs_info.R`: Annotates significant SNPs, checks for overlap with circadian gene sets and GTEx QTLs.  
   - `sumstats_plot.R`: Generates Q-Q and Manhattan plots.  
   - `genomic_inflation_factor.R`: Calculates genomic inflation factors.  
-  - `f1_circ_snp_stat.R`: Summarizes the number of associations, sample sizes, and circadian gene counts per tissue.
+  - `circ_snp_stat.R`: Summarizes the number of associations, sample sizes, and circadian gene counts per tissue.
 
 ### Functional Characterization of Circ-SNPs
 
 - **Scripts**:  
-  - `f2_minor_allele_dev_score.R`: Analyzes deviation scores for minor alleles vs. controls.  
+  - `minor_allele_dev_score.R`: Analyzes deviation scores for minor alleles vs. controls.  
   - `circ_snp_ancestral_allele.R`: Retrieves ancestral alleles and shows that major Circ-SNP alleles tend to be ancestral.
 
 - **Distribution on Genome**:  
-  - `f3_manhattan.R`: Visualizes genome-wide distribution including chrX.  
+  - `manhattan.R`: Visualizes genome-wide distribution including chrX.  
   - `f_s2_tissue_overlap_upset.R`: Plots overlap of significant SNPs across tissues.  
   - `f_s4_snp_location.R`, `snp_location.R`: Show genomic location and 3' transcript enrichment of Circ-SNPs.
 
