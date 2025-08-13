@@ -1,5 +1,5 @@
 # Circadian-rhythm-GWAS-by-Circ-deviation-score
-This repository contains scripts and workflows of Dissect the genetic architecture of circadian rhythms using a quantitative circadian deviation score
+This repository contains scripts and workflows of Dissecting the genetic architecture of circadian rhythms in human tissues using a quantitative circadian deviation score
 
 ---
 
